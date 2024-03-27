@@ -41,7 +41,7 @@ I captured screenshots of the execution results at each step, including the succ
 
 ### ***To interact with your deployed smart contract, complete the following steps:***
 ---
-![Deployed Contract](Execution_results/shot1.png)
+![Deployed Contract](Execution_Results/shot1.png)
 ---
 1. Use the `setAccounts` function to define the authorized Ethereum address that will be able to withdraw funds from your contract.
 
@@ -53,31 +53,31 @@ I captured screenshots of the execution results at each step, including the succ
     > ```
 ----    
 
-![setting accounts](Execution_results/shot2.png)
+![setting accounts](Execution_Results/shot2.png)
 
 2. Test the deposit functionality of your smart contract by sending the following amounts of ether. After each transaction, use the `contractBalance` function to verify that the funds were added to your contract:
 
 * Transaction 1: Send 1 ether as wei.
 
-![sent 1 ETH](Execution_results/shot3.png)
+![sent 1 ETH](Execution_Results/shot3.png)
 
 * Transaction 2: Send 10 ether as wei.
 
-![sent 10 ETH](Execution_results/shot4.png)
+![sent 10 ETH](Execution_Results/shot4.png)
 
 * Transaction 3: Send 5 ether.
 
-![sent 5 ETH](Execution_results/shot5.png)
+![sent 5 ETH](Execution_Results/shot5.png)
  
 3. Once you’ve successfully deposited funds into your contract, test the contract’s withdrawal functionality.
 
 - 1. Withdraw 5 ether into `accountOne`. use the `contractBalance` function to verify that the funds were withdrawn from your contract.
 
-![Withdraw 5 ETH](Execution_results/shot6.png)
+![Withdraw 5 ETH](Execution_Results/shot6.png)
 
 - 2. Withdraw 10 ether into `accountTwo`. After each transaction, use the `contractBalance` function to verify that the funds were withdrawn from your contract. 
 
-![Withdraw 10 ETH](Execution_results/shot7.png)
+![Withdraw 10 ETH](Execution_Results/shot7.png)
 
 4. Test the `lastToWithdraw` function to verify that the address was correct.
 
