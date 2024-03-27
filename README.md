@@ -71,11 +71,11 @@ I captured screenshots of the execution results at each step, including the succ
  
 3. Once you’ve successfully deposited funds into your contract, test the contract’s withdrawal functionality.
 
-- 1. Withdraw 5 ether into `accountOne`. use the `contractBalance` function to verify that the funds were withdrawn from your contract.
+- Withdraw 5 ether into `accountOne`. use the `contractBalance` function to verify that the funds were withdrawn from your contract.
 
 ![Withdraw 5 ETH](Execution_Results/shot6.png)
 
-- 2. Withdraw 10 ether into `accountTwo`. After each transaction, use the `contractBalance` function to verify that the funds were withdrawn from your contract. 
+- Withdraw 10 ether into `accountTwo`. After each transaction, use the `contractBalance` function to verify that the funds were withdrawn from your contract. 
 
 ![Withdraw 10 ETH](Execution_Results/shot7.png)
 
